@@ -1,0 +1,187 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  gap: 30px;
+}
+
+.hero-text {
+  max-width: 450px;
+  color: #f9faf8;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 20px;
+}
+
+.hero-text button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero-image {
+  background-color: #6b7280;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  font-size: 18px;
+  overflow: hidden; /* Prevent overflow */
+}
+
+/* Info Section */
+.info-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.info-section h2 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card {
+  width: 150px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #1f2937;
+}
+
+/* Quote Section */
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 80px 200px;
+  text-align: center;
+}
+
+.quote-section p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+.quote-section .author {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+/* Call to Action Section */
+.cta-section {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-box {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 80px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 1000px;
+}
+
+.cta-box p {
+  color: #f9faf8;
+  font-size: 18px;
+}
+
+.cta-box p strong {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.cta-box button {
+  background-color: transparent;
+  color: #f9faf8;
+  border: 2px solid #f9faf8;
+  padding: 5px 20px; /* Reduced padding to make the button smaller */
+  border-radius: 5px;
+  font-size: 16px; /* Reduced font size */
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
